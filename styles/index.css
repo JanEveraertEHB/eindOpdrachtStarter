@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #0d0d0d;
+}
+main {
+  margin: auto;
+  display: flex;
+}
+#container {
+  width: 100vw;
+  height:  100vh;
+}
+
+input {
+  height: 30px;
+  box-sizing: border-box;
+  float: left;
+  background: #fff;
+  border: 1px solid #0d0d0d;
+  margin: 5px;
+  border-radius: 2px;
+}
+input {
+  width: 200px;
+}
+input[type=submit] {
+  padding: 0px 20px;
+  line-height: 30px;
+  box-sizing: border-box;
+  width: calc(100px);
+}
+@media only screen and (min-width: 700px) {
+  body {
+    padding: 30px 50px;
+  }
+}
