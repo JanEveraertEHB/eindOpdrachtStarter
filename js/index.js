@@ -4,7 +4,6 @@ import User from "./User.js";
 
 
 const service = {
-  userID: null,
   user: new User(),
   init() {
     this.user.initFields();
